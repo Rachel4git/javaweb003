@@ -1,0 +1,24 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>listallzone</servlet-name>
+    <servlet-class>com.atrachel.controller.ListAllZoneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>listallzone</servlet-name>
+    <url-pattern>/listallzone</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>deletebyid</servlet-name>
+    <servlet-class>com.atrachel.controller.DeleteByIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deletebyid</servlet-name>
+    <url-pattern>/deletebyid</url-pattern>
+  </servlet-mapping>
+</web-app>
